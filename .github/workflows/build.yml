@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - upcoming
+      - test
   pull_request:
 
 jobs:
