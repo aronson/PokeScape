@@ -43,6 +43,10 @@ jobs:
           ./install.sh ../
         working-directory: poryscript
 
+      - name: Hack poryscript configs
+        run: |
+          cp tools/poryscript/*.json .
+
       - name: Modern
         env:
           MODERN: 1
